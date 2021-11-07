@@ -1,8 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
 
-public class Class1
+public class User
 {
-	public Class1()
-	{
-	}
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string LastName { get; set; }
+    public string Email { get; set; }
+    public string String { get; set; }
+
 }
